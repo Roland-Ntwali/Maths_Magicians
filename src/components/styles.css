@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.calculus {
+  width: 100%;
+  max-width: 400px;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.display {
+  padding: 16px;
+  text-align: right;
+  background-color: grey;
+  color: #fff;
+  font-size: 30px;
+}
+
+.All {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  width: 100%;
+}
+
+.point {
+  display: flex;
+  width: 100%;
+}
+
+.orange {
+  background-color: orangered;
+}
+
+.point .orange {
+  width: 25%;
+}
+
+.point .dot {
+  width: 25%;
+}
+
+.point .zero {
+  width: 50%;
+}
+
+button {
+  background-color: rgb(223, 220, 220);
+  padding: 20px;
+  width: 100%;
+  font-size: 30px;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

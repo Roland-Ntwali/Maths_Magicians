@@ -19,7 +19,6 @@
   - [📖 Math Magician ](#-math-magician-)
   - [🛠 Built With  VSCode  ](#-built-with--vscode--)
     - [HTML/CSS, javascript, Webpack ](#htmlcss-javascript-webpack-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -66,19 +65,6 @@
     <li><a href="https://expressjs.com/">CSS</a></li>
   </ul>
 </details>
-
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
- ## 🚀 Live Demo <a name="live-demo"></a> 
-
-<!-- [Live Demo Link]() -->
 
 
 
@@ -236,7 +222,7 @@ I would like to thank  Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENCE.txt) licensed.
 
 
 
