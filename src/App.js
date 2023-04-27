@@ -1,10 +1,17 @@
 import React from 'react';
 import Calculator from './components/calculator';
+import Qoute from './components/qoute';
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      <div className="qoute_wrapper">
+        <Qoute />
+      </div>
+
+      <div className="calculator_wrapper">
+        <Calculator />
+      </div>
     </div>
   );
 }

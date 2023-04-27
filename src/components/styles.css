@@ -9,6 +9,16 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.calculator_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.qoute_wrapper {
+  margin: 20px;
 }
 
 .calculus {
