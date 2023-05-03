@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="nav">
-    <Link to="/" className="logo">Math magician</Link>
-    <ul>
+    <Link to="/home" className="logo">Math magician</Link>
+    <ul className="nav-menu">
       <li><Link to="/home">Home</Link></li>
       <li><Link to="/calculator">calculator</Link></li>
       <li><Link to="/qoute">Qoute</Link></li>
