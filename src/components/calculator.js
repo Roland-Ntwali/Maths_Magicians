@@ -22,7 +22,7 @@ function Calculator() {
       </div>
       <div className="All">
         <div className="row-1">
-          <button type="button" onClick={handleOperations}>AC</button>
+          <button type="button" onClick={handleOperations}>C</button>
           <button type="button" onClick={handleOperations}>+/-</button>
           <button type="button" onClick={handleOperations}>%</button>
           <button type="button" className="orange" onClick={handleOperations}> ÷</button>

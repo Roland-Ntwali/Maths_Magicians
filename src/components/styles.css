@@ -9,6 +9,12 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.calculator_wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .calculus {
@@ -70,4 +76,79 @@ button {
 button:hover {
   opacity: 0.9;
   cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 12px 36px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav ul a {
+  font-size: 26px;
+  color: rgb(0, 89, 255);
+  font-weight: 500;
+}
+
+.nav-menu li:not(:last-child)::after {
+  content: "";
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 15px;
+  border-right: 2px solid rgb(27, 27, 50);
+  padding-left: 17px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(27, 27, 50);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.page_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_container {
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+
+.home_container h1 {
+  display: flex;
+  color: rgb(27, 27, 50);
+}
+
+.digit_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.qoute_wrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.qoute_wrapper h1 {
+  font-size: 26px;
+  color: rgb(27, 27, 50);
+  font-weight: 700;
+  white-space: nowrap;
 }
