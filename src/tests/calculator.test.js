@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
-import Calculator from './calculator';
+import Calculator from '../components/calculator';
 
 it('renders without crashing', () => {
   const page = render(<Calculator />);

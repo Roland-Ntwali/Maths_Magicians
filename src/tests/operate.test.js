@@ -1,4 +1,4 @@
-import operate from './operate';
+import operate from '../logic/operate';
 
 const obj = {
   num1: 3,
