@@ -1,231 +1,139 @@
 <a name="readme-top"></a>
 
-
-
-<div align="center">
- 
-  
-  <br/>
-
-  <h2><b>Math Magician</b></h2>
-
-</div>
-
-
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-  - [📖 Math Magician ](#-math-magician-)
-  - [🛠 Built With  VSCode  ](#-built-with--vscode--)
-    - [HTML/CSS, javascript, Webpack ](#htmlcss-javascript-webpack-)
+- [📖 \[Math magicians\] ](#-math-magicians-)
+  - [🛠 Built With  ](#-built-with--)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
     - [Install](#install)
-    - [Run tests](#run-tests)
-  - [👥 Ntwali Roland , ](#-ntwali-roland--)
-  - [🔭 Future Features ](#-future-features-)
+    - [Setup](#setup)
+  - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
+  - [🔭 Future Features ](#-future-features-)
+    - [**\[Feature-1\]**](#feature-1)
+    - [**\[Feature-2\]**](#feature-2)
+    - [**\[Feature-3\]**](#feature-3)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
+# 📖 [Math magicians] <a name="about-project"></a>
 
+Math Magician is a user-friendly calculator application that is designed to facilitate quick and easy solutions for basic mathematical problems. The app offers an intuitive interface, coupled with fundamental arithmetic operations, allowing users to effortlessly add, subtract, multiply, and divide numbers in just a few taps. With Math Magician, users can rely on a reliable and efficient tool for all their simple calculation needs.
 
-## 📖 Math Magician <a name="about-project"></a>
+## 🛠 Built With  <a name="built-with"></a>
 
-
-
-
-
-## 🛠 Built With  VSCode  <a name="Built With VSCode"></a>
-
-### HTML/CSS, javascript, Webpack <a name="tech-stack"></a>
-
->
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>    
   </ul>
 </details>
 
 <details>
-  <summary>Styling</summary>
+<summary>Technologies</summary>
   <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
+    <li><a href="https://create-react-app.dev">React</a></li>
   </ul>
 </details>
+
 <details>
-  <summary>Functionality</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
+    <li><a href="#">N/A</a></li>
   </ul>
 </details>
 
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[Basic Arithmetic Operations]**
+- **[Easy to Use]**
+- **[Cross-Platform Compatibility]**
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+- Click to see [Demo](https://maths-magicians-xrpl.onrender.com)
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 ### Prerequisites
+Understand HTML/CSS and JavaScript
 
-In order to run this project you need:
-- Node
-- ESlint set up
+### Install
+In order to run this project you need to have the following:
 
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A code editor (preferably VSCode)
+- A browser
+- Node.js (to run javascript files locally)
+- LiveServer (to load javascript modules)
 
 ### Setup
 
-Clone this repository to your desired folder:
-<br>
-<br>gh repo clone https://github.com/Roland-Ntwali/Maths_magicians.git
+To get a local copy up and running follow these simple example steps:
+
+- Open git bash on local computer
+- clone the repo with: 
+
+git clone from ```https://github.com/Roland-Ntwali/Maths_Magicians.git```
+
+- run ```cd math-magicians``` to enter the project folder
+- run ```npm i``` to install all dependencies
+- run ```npm start``` to launch the application
 
 
+## 👥 Authors <a name="authors"></a>
 
-### Install
+👤 **Roland Ntwali**
 
-Install this project with:
+- GitHub: [Roland-Ntwali](https://github.com/Roland-Ntwali/Maths_Magicians)
+- Twitter: [@Ntwali](https://twitter.com/_Ntwali)
+- LinkedIn: [Roland Ntwali](https://www.linkedin.com/in/roland-ntwali-11b16617b/)
 
-
-
-```sh
-  
-  gh repo clone Roland-Ntwali/Maths_magicians
-  cd Math_magicians
-  npm install -y
-```
-
-
-
-
-### Run tests
-
-To run tests, run the following command:
-
-
-
-```sh
-      npx stylelint "**/*.{css,scss}"
-
-```
-
-```sh
-      npx hint .
-```
-
-```sh
-    npx eslint .
-```
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Ntwali Roland , <a name="authors"></a>
-
-
-
-👤 **Ntwali Roland**
-
-- GitHub: [@githubhandle](https://github.com/Roland-Ntwali)
-
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roland-ntwali-11b16617b/)
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> I'll add the following section to the webpage.
-
-- [ ] **basic page structure**
-- [ ] **send and receive data from API**
-- [ ] **final touches**
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Roland-Ntwali/Maths_Magicians/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🔭 Future Features <a name="future-features"></a>
 
-<!-- SUPPORT -->
+### **[Feature-1]** 
+- Scientific Calculator functionality
+
+### **[Feature-2]** 
+- Customizable Themes functionality
+
+### **[Feature-3]** 
+- Calculation History functionality
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-If you like this project... Kindly leave a star ⭐
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+If you like this project, kindly leave a comment below and share it with someone who enjoys coding! Coding is all about continuous learning and allowing yourself to be a beginner. Keep going! 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank  Microverse
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-
-- **Did you intergrate linters to your project**
-
-  - Yes
-
-- **[Did you run all the tests**
-
-  - Yes
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort. 
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENCE.txt) licensed.
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
